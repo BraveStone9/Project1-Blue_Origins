@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#background{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-image: url(3d-Travel-Wallpaper.jpg); */
+    /* background-position: center; */
+}
+#background video{
+    width: 100%;
+}
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+.items:hover{
+    text-decoration: underline;
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+#d1{
+        width: 100%;
+        height: 10%;
+        color: antiquewhite;
+        background-color: transparent;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#d1-1{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#d2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+    font-family: 'Audiowide';
+    font-weight: 100%;
+    text-align: center;
+}
+#btn{
+    width: 150px;
+    height:50px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid antiquewhite;
+    align-self: center;
+    color: antiquewhite;
+    font-family: 'Audiowide';
+    font-weight: 100%;
+    text-align: center;
+    transition: all ease-in-out .1s;
+}
+#btn:hover{
+    background-color: rgba(128, 128, 128, 0.692);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#background2{
+    width: 100%;
+    height: 245%;
+    background-color: lightgray;
+}
+#block1{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#def{
+    width:40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    width:40%;
+    height: 90%;
+    background-image: url(https://www.blueorigin.com/assets/BlueOrigin_NewShepard_CrewCapsuleView.jpeg);
+    background-size: cover;
+    transition: all ease-in-out .2s;
+}
+#img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.layout h3{
+    margin-top: 50px;
+    font-family: 'Audiowide';
+}
+.layout h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(53, 52, 52);
+    font-family: 'Audiowide';
+}
+.layout p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 120%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#btn2{
+    width: 90px;
+    height:30px;
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    border-radius: 4px;
+    border: 1px solid black;
+    align-self: center;
+    color: black;
+    font-family: 'Audiowide';
+    text-align: center;
+    transition: all ease-in-out .1s;
+}
+#btn2:hover{
+    background-color: rgba(128, 128, 128, 0.692);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#block2{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#def2{
+    width:40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#img2{
+    width:40%;
+    height: 90%;
+    background-image: url(https://www.blueorigin.com/assets/BlueOrigin_NewShepard_BoosterLanding.jpg);
+    background-size: cover;
+    transition: all ease-in-out .2s;
+}
+#img2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#btn3{
+    width: 90px;
+    height:30px;
+    background-color: transparent;
+    position: absolute;
+    left: 70%;
+    border-radius: 4px;
+    border: 1px solid black;
+    align-self: center;
+    color: black;
+    font-family: 'Audiowide';
+    text-align: center;
+    transition: all ease-in-out .1s;
+}
+#btn3:hover{
+    background-color: rgba(128, 128, 128, 0.692);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#block3{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 305%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#def3{
+    width:40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#img3{
+    width:40%;
+    height: 90%;
+    background-image: url(https://www.blueorigin.com/assets/BlueOrigin_NewShepard_Launch.jpg);
+    background-size: cover;
+    transition: all ease-in-out .2s;
+}
+#img3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#btn4{
+    width: 90px;
+    height:30px;
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    border-radius: 4px;
+    border: 1px solid black;
+    align-self: center;
+    color: black;
+    font-family: 'Audiowide';
+    text-align: center;
+    transition: all ease-in-out .1s;
+}
+#btn4:hover{
+    background-color: rgba(128, 128, 128, 0.692);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#background3{
+    width: 100%;
+    height: 120%;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    
+}
+#background3 h1{
+    color: antiquewhite;
+    font-family: 'Audiowide';
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 75%;
+    position: absolute;
+    top: 410%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cards{
+    width: 30%;
+    height: 100%;
+    background-color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+    transition: all ease-in-out .2s;
+}
+.prfl{
+    width: 100%;
+    height: 50%;
+}
+.cards h2{
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 90%;
+
+}
+.cards h3{
+    margin-top: 10px;
+    font-family: 'Audiowide'
+}
+.cards p{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 90%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#one{
+    background-image: url(https://www.blueorigin.com/assets/blueorigin-bluemoon-lander-reveal.jpg);
+    background-size: cover;
+    border-radius: 6px;
+}
+#two{
+    background-image: url(https://www.sciencenewsforstudents.org/sites/default/files/scald-image/860_main_Marscolony.gif);
+    background-size: cover;
+    border-radius: 6px;
+}
+#three{
+    background-image: url(https://www.blueorigin.com/assets/blueorigin_newglenn_telesatannouncementweb.jpeg);
+    background-size: cover;
+    border-radius: 6px;
+}
+.cards:hover{
+    transform : scale(1.2);
+    cursor: pointer;
+}
